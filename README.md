@@ -2,5 +2,5 @@
 
 ## Pokédex
 
-### Enlace al sitio web: 
+### Enlace al sitio web: https://gloriacoralcerecedo.github.io/IntroJS/
 
