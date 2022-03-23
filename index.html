@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <div class="titulo"><h1 >Pokédex</h1></div>
+    <div class="contenido">
+        <div class="imagen">
+            <img src="./img/pokeball.gif" alt="Pokemon" id="pokeImg">
+        </div>
+        <div class="imagen2">
+            <img src="./img/pokeball.gif"id="pokeImg2">
+        </div>
+        <p class="id" id="id"></p>
+        <p class="name" id="name"></p>
+        <input type="text" placeholder="Ingresa el número o nombre de un pokémon" id="pokemon" name="pokemon">
+        <button onclick="fetchPokemon()" class="btnPokemon"></button>
+    </div>
+    <div class="contenido2">
+        <div class="info">
+            <p class="tipo" id="tipo"></p>
+            <textarea readonly="readonly" cols="5" rows="10" class="movi" id="movi" name="movi"></textarea>
+            <p class="habilidad" id="habilidad"></p>
+            <h3 class="distica" id="distica"></h3>
+            <p class="hp" id="hp"> </p>
+            <p  class="atk" id="atk"></p>
+            <p class="def" id="def"></p>
+            <p  class="satk" id="satk"></p>
+            <p   class="sdef" id="sdef"></p>
+            <p class="spd" id="spd"></p>
+        </div>
+        <div class="altura">
+            <p class="alt" id="alt"></p>
+        </div>
+        <div class="peso1">
+            <p class="peso" id="peso"></p>
+        </div>
+        <div class="imagen3">
+            <img src="./img/pokeball.gif"id="pokeImg3">
+        </div>
+        <div class="imagen4">
+            <img src="./img/pokeball.gif"id="pokeImg4">
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="poke"><img class="logo" src="./img/Pokemon.png" alt="Pokemon"></div>
+    <script src="./app.js"></script>
+</footer>  
+</html>
